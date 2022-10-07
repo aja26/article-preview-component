@@ -84,8 +84,8 @@ figure strong{
 }
 
 figure button, aside button{
-    color: var(--light-grayish-blue);
-    background-color: var(--very-dark-grayish-blue);
+    background-color: var(--light-grayish-blue);
+    color: var(--very-dark-grayish-blue);
     border: 0;
     border-radius: 50%;
     height: 2rem;
@@ -97,8 +97,8 @@ figure button, aside button{
 }
 
 figure button.active{
-    background-color: var(--light-grayish-blue);
-    color: var(--very-dark-grayish-blue);
+    color: var(--light-grayish-blue);
+    background-color: var(--very-dark-grayish-blue);
 }
 
  aside{
@@ -197,6 +197,10 @@ aside figcaption::after{
 
     aside button{
         display: block;
+        background-color: var(--desaturated-dark-blue);
+        color: var(--light-grayish-blue);
+        right: 2rem;
+        top: 0.75rem;
     }
 
     aside figcaption{
@@ -211,12 +215,6 @@ aside figcaption::after{
         border-bottom-left-radius:1rem;
         border-bottom-left-radius:1rem;
         padding: 1rem 2rem;
-    }
-
-    aside button{
-        right: 2rem;
-        top: 0.75rem;
-        background-color: var(--desaturated-dark-blue);
     }
 
    .social{
