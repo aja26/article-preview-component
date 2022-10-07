@@ -84,8 +84,8 @@ figure strong{
 }
 
 figure button, aside button{
-    background-color: var(--light-grayish-blue);
-    color: var(--very-dark-grayish-blue);
+    color: var(--light-grayish-blue);
+    background-color: var(--very-dark-grayish-blue);
     border: 0;
     border-radius: 50%;
     height: 2rem;
@@ -97,8 +97,8 @@ figure button, aside button{
 }
 
 figure button.active{
-    color: var(--light-grayish-blue);
-    background-color: var(--very-dark-grayish-blue);
+    background-color: var(--light-grayish-blue);
+    color: var(--very-dark-grayish-blue);
 }
 
  aside{
@@ -160,13 +160,22 @@ aside figcaption::after{
 @media (max-width:980px){
     main{
         width: 350px;
-        height: 600px;
+        height: 550px;
         grid-template-columns: 1fr;
         overflow: hidden;
     }
 
     .content{
-        padding: 1.5rem 2rem 0rem;
+        padding: 1.5rem 2rem 2.5rem;
+    }
+
+    h1{
+        font-size: 1.1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
     }
 
     main img.drawers{
@@ -178,12 +187,12 @@ aside figcaption::after{
 
     aside{
         position: relative;
-        top: -3.5rem;
+        top: -6.4rem;
         right: 0rem;
         width: 100%;
-        height: 4rem;
+        height: 5rem;
         border-radius: 0rem;
-        padding: 1rem 0rem;
+        padding: 1.25rem 0rem;
     }
 
     aside button{
@@ -210,9 +219,9 @@ aside figcaption::after{
         background-color: var(--desaturated-dark-blue);
     }
 
-    button i{
-        color: var(--light-grayish-blue);
-    }
+   .social{
+        margin-left: -9rem;
+   }
 
     aside figcaption::after{
         display: none;
