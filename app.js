@@ -9,4 +9,5 @@ share.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
     fig.classList.remove('active');
+    share.classList.remove('active')
 })
